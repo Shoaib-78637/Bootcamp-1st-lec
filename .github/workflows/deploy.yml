@@ -33,7 +33,7 @@ jobs:
     - name: Installing Surge
       run:  npm install --global surge
     - name: deploying using surge
-      run:  surge./ bootcampd1.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run:  surge./ " C:\Users\shabi\Desktop\Bootcamp-1st-lec" --token ${{secrets.SURGE_TOKEN}}
 
       
    
